@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<!-- Cuerpo de la pagina -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class="container">
+        
+            <form 
+                class="forms"
+                method="post"
+            >
+                <h1>Registrar usuarios</h1>
+                <input autocomplete="off"  class="text" type="text" id="Nombre" placeholder="Nombre" >
+                <p></p>
+                <input autocomplete="off" class="text" type="text" id="Apellidos" placeholder="Apellidos" >
+                <p></p>
+                    
+
+                    <select class="curso" id="curso">
+                        <option disabled selected>Selecciona el curso</option>
+                        <option>Sexto</option>
+                        <option>Septimo</option>
+                        <option>Octavo</option>
+                        <option>Noveno</option>
+                        <option>Decimo</option>
+                        <option>Undecimo</option>
+                    </select>
+                    <p></p>
+                    <input id="edad" class="text" type="number"  placeholder="Edad" min="0" max="100">
+                    <div>
+                        <p>Sexo</p>
+                        <input type="radio" name="sexo"  value="masculino"> masculino
+                        <input type="radio" name="sexo"  value="femenino"> femenino
+                        <p></p>
+                    </div>
+                    <input autocomplete="off" class="text" type="text" id="Estado_Civil" placeholder="Estado civil" >
+                    <div>
+                        <p>Poblacion vulnerable</p>
+                        <input type="radio" name="pv" id="si" value="si"> Si
+                        <input type="radio" name="pv" id="no" value="no"> No
+                        <p></p>
+                    </div>
+                    <select  class="ubicacion" id="ubicacion">
+                        <option disabled selected>Seleccione su ubicacion</option>
+                        <option>La playa</option>
+                        <option>Malambo</option>
+                        <option>Barranquilla</option>
+                        <option>Galapa</option>
+                        </select>
+                        <p></p>
+                    <input id="btn1" class="btn1" type="submit" >
+            </form>
+        </div>
+<script src="javascript.js"></script>
+</body>
+</html>
